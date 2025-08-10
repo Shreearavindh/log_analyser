@@ -1,0 +1,15 @@
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.envrc
+# OS & editors
+.DS_Store
+.vscode/
+.idea/
+# docker
+*.tar
