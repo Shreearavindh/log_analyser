@@ -24,3 +24,6 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/log-generator:latest
+
+      - name: done
+        run: echo "completed"
